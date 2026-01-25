@@ -1,0 +1,11 @@
+.git
+.gitignore
+README.md
+*.md
+.vscode
+.idea
+node_modules
+symfony/var
+symfony/vendor
+symfony/.env.local
+

@@ -1,0 +1,10 @@
+home:
+    path: /
+    controller: App\Controller\DefaultController::index
+
+app:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+

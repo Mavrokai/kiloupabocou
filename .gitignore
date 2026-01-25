@@ -1,0 +1,38 @@
+# Fichiers sensibles - NE JAMAIS COMMITER
+symfony/.env
+symfony/.env.*
+symfony/.env.local
+symfony/.env.local.php
+*.env
+.env
+.env.*
+# Garder .env.example (sans secrets)
+!.env.example
+!symfony/env.template
+
+# Fichiers Symfony
+symfony/var/
+symfony/vendor/
+symfony/composer.lock
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Fichiers de configuration avec secrets
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Scripts locaux (peuvent contenir des configurations personnelles)
+start.sh
+test.sh
+
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
